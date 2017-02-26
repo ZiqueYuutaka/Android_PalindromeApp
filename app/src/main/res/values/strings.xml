@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Palindrome App</string>
+    <string name="prompt">Enter a string!</string>
+    <string name="objective">To see if it is a palindrome</string>
+    <string name="instructions">A palindrome is a word or phrase which reads the same forward and backward.</string>
+    <string name="hint">Enter word or phrase here</string>
+    <string name="btSubmitTitle">SUBMIT</string>
+    <string name="btClearTitle">CLEAR</string>
+</resources>
