@@ -1,6 +1,8 @@
 package woodferren.izak.palindrome;
 
+import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 public abstract class StringProcessor {
 	
@@ -20,6 +22,13 @@ public abstract class StringProcessor {
 			}
 			return true;
 		}
+	}
+
+	public static boolean isEmpty(String str){
+		if(str.equals("")){
+			return true;
+		}
+		return false;
 	}
 	
 	public static String removePunc(String str){
